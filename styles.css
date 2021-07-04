@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-s
+}
+header{
+    text-align: center;
+    justify-content: center;
+}
+h1{
+    font-family: 'Benne', serif;
+    margin: 2rem 3rem auto;
+    font-size: 8vh;
+}
+
+.nav-bar{
+    background-image: linear-gradient(to left,#776d4a,#9c988c);
+    height: 7vh;
+    width: auto;
+}
+
+header div ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+    color: blanchedalmond;
+    list-style-type: none;
+}
+.container{
+
+    text-align: center;
+    justify-content: center;
+}
+.container .Saya{
+    display: flex;
+    justify-content: space-around;
+    margin: 7% auto 2% auto;
+    width: 70%;
+
+}
+
+.Saya img{
+    height: 60vh;
+    width: 70vh;
+}
+
+.container .Beechtree{
+    display: flex;
+    justify-content: space-around;
+    margin: 7% auto 2% auto;
+    width: 70%;
+
+}
+.Beechtree img{
+    height: 60vh;
+    width: 45vh;
+}
+
+.container .Sana-Safinaz{
+    display: flex;
+    justify-content: space-around;
+    margin: 7% auto 2% auto;
+    width: 70%;
+
+}
+.Sana-Safinaz img{
+    height: 60vh;
+    width: 45vh;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 0 0 4rem 0;
+}
+li:hover{
+    cursor: pointer;
+    color: rgb(219, 207, 207);
+   
+}
+h3{
+    font-family: 'Mate SC', serif;
+    margin: 10vh 0 2vh 0;
+}
+footer{
+    margin: 5rem 0 0 0;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(to right,#000000,#74726e);
+    
+  
+}
+footer li{
+    list-style-type: none;
+    line-height: 2;
+    color: white;
+}
+
+footer h3{
+    color: white;
+}
+.social-media{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+img:hover{
+    opacity: 0.5;
+}
+.fab{
+    color: white;
+}
+@media screen and (max-width: 460px){
+   body{
+       font-size: 1vh;
+   }
+    
+    h1{
+ 
+        margin: 1rem 1.5rem auto;
+        font-size: 4vh;
+    }
+    
+    .nav-bar{
+        background-image: linear-gradient(to left,#776d4a,#9c988c);
+        height: 7vh;
+        width: 100%;
+    }
+
+    .container .Saya{
+        display: flex;
+        justify-content: space-around;
+        margin: 7% auto 2% auto;
+        width: 70%;
+    
+    }
+    
+    .Saya img{
+        height: 15vh;
+        width: 17vh;
+    }
+    
+    .container .Beechtree{
+        display: flex;
+        justify-content: space-around;
+        margin: 7% auto 2% auto;
+        width: 70%;
+    
+    }
+    .Beechtree img{
+        height: 15vh;
+        width: 10vh;
+    }
+    
+    .container .Sana-Safinaz{
+        display: flex;
+        justify-content: space-around;
+        margin: 7% auto 2% auto;
+        width: 70%;
+    
+    }
+    .Sana-Safinaz img{
+        height: 15vh;
+        width: 10vh;
+    }
+    
+    a{
+        padding: 0 0 2rem 0;
+    }
+ 
+    h3{
+        font-size: 2vh ;
+        font-family: 'Mate SC', serif;
+        margin: 4vh 0 1vh 0;
+    }
+    footer{
+        margin: 5rem 0 0 0;
+        padding: 2rem;
+        display: flex;
+        justify-content: space-around;
+        background-image: linear-gradient(to right,#000000,#74726e);
+        
+      
+    }
+    footer li{
+        list-style-type: none;
+        line-height: 2;
+        color: white;
+    }
+    
+    footer h3{
+        font-size: 1vh;
+        color: white;
+    }
+    .social-media{
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    img:hover{
+        opacity: 0.5;
+    }
+
+}
